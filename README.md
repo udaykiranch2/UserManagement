@@ -1,7 +1,7 @@
 # User Management React Application
 
 ## Project Overview
-A React application for managing users, featuring CRUD operations using JSONPlaceholder API.
+A React application for managing users, featuring CRUD operations using JSON Server API end points.
 
 ## Features
 - List users with pagination
@@ -17,18 +17,25 @@ A React application for managing users, featuring CRUD operations using JSONPlac
 3. Install dependencies: 
    - `axios`
    - `react-router-dom`
-4. Run `npm start`
+   - `concurrently`
+   - `json-server`
+   - `tailwindcss`
+   - `autoprefixer`
+   - `postcss`
+4. Run `npm run dev`
 
 ## Technologies Used
 - React
 - React Router
 - Axios
+- Json Server
 - Tailwind CSS
 
 ## Challenges
 - JSONPlaceholder API doesn't persist data
 - Implementing client-side state management
 - Error handling for API requests
+- setting CRUD functionality end points
 
 ## Future Improvements
 - Add more robust form validation
