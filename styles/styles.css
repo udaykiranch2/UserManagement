@@ -1,0 +1,313 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  } */
+
+  /* Global Styles for App.jsx */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .app-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .app-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .app-header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #007bff;
+  }
+  
+  .app-header p {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .app-main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .app-footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .app-footer a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .app-footer a:hover {
+    text-decoration: underline;
+  }
+  
+/* Button Group for App Controls */
+.button-group {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .button-group button {
+    padding: 8px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Updated vibrant colors */
+  .button-group .primary {
+    background-color: #1e90ff; /* Dodger Blue */
+    color: #fff;
+  }
+  
+  .button-group .primary:hover {
+    background-color: #1c86ee; /* Slightly darker Dodger Blue */
+  }
+  
+  .button-group .secondary {
+    background-color: #20c997; /* Emerald Green */
+    color: #fff;
+  }
+  
+  .button-group .secondary:hover {
+    background-color: #17a884; /* Slightly darker Emerald Green */
+  }
+  
+  .button-group .danger {
+    background-color: #f44336; /* Bright Red */
+    color: #fff;
+  }
+  
+  .button-group .danger:hover {
+    background-color: #e53935; /* Slightly darker Bright Red */
+  }
+  
+  /* Add Button Custom Styling */
+  button.add {
+    background-color: #4caf50; /* Vibrant Green */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.add:hover {
+    background-color: #43a047; /* Slightly darker Green */
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .app-container {
+      padding: 10px;
+    }
+  
+    .app-header h1 {
+      font-size: 28px;
+    }
+  
+    .button-group {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    .button-group button {
+      width: 100%;
+    }
+  }
+  
+  
+  #root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  a,
+  button {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  a {
+    display: inline-block;
+    margin-bottom: 1rem;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  a:hover {
+    background-color: #0056b3;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+  }
+  
+  table thead {
+    background-color: #f2f2f2;
+  }
+  
+  table th,
+  table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  button {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+  }
+  
+  button.edit {
+    background-color: #ffc107;
+  }
+  
+  button.edit:hover {
+    background-color: #e0a800;
+  }
+  
+  button.delete {
+    background-color: #dc3545;
+  }
+  
+  button.delete:hover {
+    background-color: #c82333;
+  }
+  
+  button.load-more {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+  }
+  
+  button.load-more:hover {
+    background-color: #218838;
+  }
+  .error-boundary {
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+    padding: 16px;
+    border-radius: 8px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .error-boundary h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  
+  .error-boundary p {
+    font-size: 16px;
+    margin: 0;
+  }
+  .form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .form-container h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form-container label {
+    display: block;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 8px;
+  }
+  
+  .form-container input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  .form-container input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+  }
+  
+  .form-container button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .form-container button:hover {
+    background-color: #0056b3;
+  }
+  
