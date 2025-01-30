@@ -1,0 +1,94 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "company": {
+        "name": "Tech Innovations Inc."
+      }
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "company": {
+        "name": "Global Solutions LLC"
+      }
+    },
+    {
+      "id": "3",
+      "name": "Michael Johnson",
+      "email": "michael.johnson@example.com",
+      "company": {
+        "name": "Alpha Tech Corp"
+      }
+    },
+    {
+      "id": "4",
+      "name": "Emily Davis",
+      "email": "emily.davis@example.com",
+      "company": {
+        "name": "Creative Minds Ltd."
+      }
+    },
+    {
+      "id": "5",
+      "name": "Robert Brown",
+      "email": "robert.brown@example.com",
+      "company": {
+        "name": "Brown Enterprises"
+      }
+    },
+    {
+      "id": "6",
+      "name": "Sophia Martinez",
+      "email": "sophia.martinez@example.com",
+      "company": {
+        "name": "Bright Horizons Inc."
+      }
+    },
+    {
+      "id": "7",
+      "name": "William Taylor",
+      "email": "william.taylor@example.com",
+      "company": {
+        "name": "TechnoWorld Corp."
+      }
+    },
+    {
+      "id": "8",
+      "name": "Olivia Anderson",
+      "email": "olivia.anderson@example.com",
+      "company": {
+        "name": "Anderson Consulting"
+      }
+    },
+    {
+      "id": "9",
+      "name": "James Lee",
+      "email": "james12.lee@example.com",
+      "company": {
+        "name": "NextGen Solutions"
+      }
+    },
+    {
+      "id": "4631",
+      "name": "kiran",
+      "email": "kiran@gmail.com",
+      "company": {
+        "name": "MindStack"
+      },
+      "companyName": "MindStack"
+    },
+    {
+      "id": "1ed9",
+      "name": "Test",
+      "email": "test@gmail.com",
+      "company": {
+        "name": "Test sol."
+      },
+      "companyName": "Test sol."
+    }
+  ]
+}
